@@ -5,13 +5,16 @@ body{
 .mainsection{
     border-left: 20px solid gray;
     border-right: 20px solid gray;
+    border-bottom: 20px solid gray;
+    overflow: hidden;
+    
 
 }
 header{
     
     display: flex;
     width: 100%;
-    height: 150px;
+    height: auto;
     justify-content: space-between;
 }
 .logo{
@@ -22,7 +25,7 @@ header{
 }
 .logo img{
     width: 100%;
-    height: 150px;
+    height: auto;
 }
 .rightcontact{
 
@@ -113,13 +116,14 @@ nav ul li a.home{
     display: flex;
     justify-content: center;
 gap: 15px;
+align-items: stretch; 
 
 }
 .leftimage{
    
     width: 50%;
     height: auto;
-    height: 385px;
+    
     box-shadow: 50px black;
     
 }
@@ -127,32 +131,33 @@ gap: 15px;
     
     width: 43%;
     height: auto;
-    height: 385px;
+   
     background: url(images/form_bg.jpg);
-    background: cover;
+    
     background-repeat: no-repeat;
-    background-size:100% ;
+    background-size:cover ;
      box-shadow: 0px 2px 10px black;
    
 }
 .leftimage img{
-    height: 385px;
+    height: 100%;
     width: 100%;
     box-shadow: 0px 2px 10px black;
+    
 }
 .rightimage img{
-    height: 385px;
+    height: auto;
     width: 100%;
 }
 /*Form container*/
 .mainquestion{
     
     width: 100%;
-    height: 80px;
+    height: auto;
     display: flex;
 }
 .question{
-    height: 100px;
+    height: auto;
    margin-top: 0;
     width: 34%;
     height: 40px;
@@ -204,7 +209,7 @@ font-family: sans-serif;
     
 }
 .inputs{
-    
+    height: auto;
     width: 50%;
     display: flex;
     text-align: center;
@@ -229,7 +234,7 @@ form input{
 
 }
 .confidential img{
-    height: 60px;
+    height: auto;
     width: 80%;
     margin-top: 30px;
     margin-left: 15px;
@@ -237,7 +242,7 @@ form input{
 }
 textarea{
     width: 85%;
-    height: 60px;
+    height: auto;
     margin-left: 45px;
     margin-top: 10px;
     
@@ -262,7 +267,8 @@ align-items: center;
 .guaranteed button{
     display: flex;
     width: 50%;
-    height: 40px;
+    padding: 10px;
+    height: auto;
     background-color:   #bb0406;
     font-size: 18px;
     justify-content: center;
@@ -274,13 +280,13 @@ align-items: center;
      
 }
 .guaranteed button img{
-    height: 15px;
+    height: auto;
     width: 6%;
     margin-left: 20px;
 }
 /*Second Section*/
 .secondsection{
-    
+    padding-bottom: 30px;
     width: 100%;
     display: flex;
     margin-top: 30px
@@ -333,7 +339,7 @@ font-family: sans-serif;
     display: flex;
 }
 .board img{
-    height: 120px;
+    height: auto;
     margin-left: 20px;
 }
 .clickbtn1{
@@ -341,23 +347,24 @@ font-family: sans-serif;
     width: 100%;
     
     justify-content: end;
-    height: 50px;
+    height: auto;
 }
 .clickbtn1 hr{
     border: none;
     background-color: rgb(112, 110, 110);
     height: 2px;
     width: 50%;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 .clickbtn1 button{
     background-color: #bb0406;
     color: white;
      box-shadow: 0px 2px 10px black;
-    height: 30px;
+    height: auto;
+    padding: 5px;
     width: 30%;
     margin-top: -2px;
-    margin-left: 200px;
+    margin-left: 220px;
     border: none;
 }
 .clickbtn1 button img{
@@ -373,8 +380,9 @@ font-family: sans-serif;
 .lawone{
     border-bottom: 2px solid rgb(112, 110, 110);
     width: 100%;
-   height: 150px;
+   height: auto;
    display: flex;
+   padding-bottom: 10px;
 }
 .lawone .left{
    
@@ -411,7 +419,8 @@ color: rgb(112, 110, 110);
     background-color: #bb0406;
     color: white;
      box-shadow: 0px 2px 10px black;
-    height: 30px;
+    height: auto;
+     padding: 5px;
     width: 45%;
     margin-top: -2px;
     margin-left: 80px;
@@ -426,7 +435,7 @@ color: rgb(112, 110, 110);
 
 .screen img{
     margin-top: 20px;
-    height: 90px;
+    height: auto;
 }
 
 /*Secon Div*/
@@ -435,7 +444,7 @@ color: rgb(112, 110, 110);
 .result{
     
     width: 100%;
-   height: 150px;
+   height: auto;
    display: flex;
 }
 .result .left{
@@ -473,7 +482,8 @@ letter-spacing: 1px;
     background-color: #bb0406;
     color: white;
      box-shadow: 0px 2px 10px black;
-    height: 30px;
+    height: auto;
+     padding: 5px;
     width: 45%;
     margin-top: -2px;
     margin-left: 80px;
@@ -487,7 +497,7 @@ letter-spacing: 1px;
 }
 .order img{
     margin-top: 20px;
-    height: 100px;
+    height: auto;
 }
 /*Third Container*/
 .certificates{
@@ -505,12 +515,12 @@ letter-spacing: 1px;
 }
 .avoimg{
 margin-top: 20px;
-height: 100px;
+height: auto;
 
 }
 .collegeimg{
     margin-top: 20px;
-    height: 100px;
+    height: auto;
     
 }
 /*Second Div*/
@@ -550,7 +560,8 @@ height: 100px;
     background-color: #bb0406;
     color: white;
      box-shadow: 0px 2px 10px black;
-    height: 30px;
+    height: auto;
+     padding: 5px;
     width: 30%;
     margin-top: -2px;
     margin-left: 180px;
@@ -571,13 +582,15 @@ height: 100px;
 }
 /*Last Section*/
 .lastsection{
-    border: 2px solid black;
+   
     width: 100%;
+    display: flex;
+    height:auto;
 }
 /*First Left Container*/
 .leftcontainer{
-    border: 2px solid black;
-    width: 30%;
+   
+    width: 23%;
     
 }
 .leftcontainer h1{
@@ -593,31 +606,67 @@ margin-left: 10px;
     border: 2px solid black;
     width: 100%;
     display: flex;
-   
-    justify-content: center;
+   align-items: center;
+   height: 80px;
+   margin-top: 5px;
 }
-.bigbtn1{
-border: 2px solid black;
-width: 90%;
-height: 90px;
-display: flex;
-
-}
-.bigbtn1 .redborder{
+.redborder{
     height: 100%;
     width: 5%;
+    margin-left: 20px;
+}
+.bigbtn1{
+   border: 2px solid black;
+    height: 100%;
+    width: 90%;
+    background-color: #838383;
 }
 .upper{
-    border: 2px solid black;
-    width: 90%;
-    margin-left: 5%;
+    
+    width: 100%;
 }
+.upper h1{
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.lower{
+     
+    width: 100%;
+    
+    display: flex;
+}
+.lower p{
+    color: white;
+    margin-top: 25px;
+    margin-left: 120px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.lower img{
+    margin-left: 5px;
+    margin-top: 25px;
+    height: 15px;
+    
+}
+.btnshadow{
+    width: 100%;
+    margin-top: -2px;
+}
+.btnshadow img{
+    width: 90%;
+    margin-left: 20px;
+    
+}
+
 
 
 .learndiv{
-    border: 2px solid black;
+   
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -635,5 +684,129 @@ color: #838383;
     font-size: 20px;
     color: #838383;
     font-family: sans-serif;
-    w
+    
 }
+
+
+/*Second Center Container*/
+.centercontainer{
+    
+    width: 55%;
+}
+.centercontainer h1{
+    margin-left: 25px;
+}
+.centercontainer p{
+    color: #838383;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+/*Third Right Container*/
+
+.rightcontainer{
+    
+    width: 22%;
+
+}
+.clientdiv{
+    width: 100%;
+    
+}
+.clientdiv h1{
+    font-size: 25px;
+    color: #838383;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.clientdiv span{
+    color: #bb0406;
+}
+.clientdiv p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #838383;
+}
+.clientdiv hr{
+    width: 90%;
+    background-color: #838383;
+}
+.clientdiv button{
+    background-color: #bb0406;
+    color: white;
+     box-shadow: 0px 2px 10px black;
+    height: 30px;
+    width: 50%;
+    margin-top: -3px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border: none;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.clientdiv button img{
+    margin-left: 10px;
+}
+.lastimg{
+    width: 100%;
+    text-align: center;
+    
+}
+.lastimg .avo{
+    margin-bottom: 10px;
+}
+.followus{
+    
+    width: 100%;
+   text-align: center;
+   
+   
+}
+.followus h1{
+     font-size: 25px;
+    color: #838383;
+    margin-bottom: 0;
+}
+.followus span{
+    color: #bb0406;
+}
+.followus hr{
+    width: 90%;
+    background-color: #838383;
+    
+}
+.followshadow{
+    width: 92%;
+    margin-top: -3px;
+    align-items: center;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+}
+.followshadow img{
+    margin-left: 10px;
+   width: 100%;
+   
+
+}
+.icondiv1{
+    width: 100%;
+    display: flex;
+    align-content: center;
+justify-content: center;
+gap: 30px;
+}
+.lastborder{
+    width: 100%;
+    height: 15px;
+    background:linear-gradient( #bb0406,black) ;
+    box-shadow: 2px,0px, 5px black;
+    border: none;
+    margin-top: 50px;
+}
+
