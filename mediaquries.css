@@ -1,4 +1,7 @@
 @media (max-width: 1237px) {
+    .toggle{
+        display: none;
+    }
 .rightcontact h3{
     font-size: 20px;
 }
@@ -670,11 +673,15 @@ nav ul li{
 .rightcontact p{
     font-size: 9px;
 }
-nav{
-    display: none;
+nav .toggle{
+     display: flex;
+    margin-right: 10px;
+   
+
 }
 nav ul li{
-    font-size:12px;
+    
+    display: none;
 }
 .imagesection{
     display: flex;
@@ -961,11 +968,13 @@ nav ul li{
 .rightcontact p{
     font-size: 12px;
 }
-nav{
-    display: none;
+nav .toggle{
+    display: flex;
+    margin-right: 10px;
 }
 nav ul li{
     font-size:12px;
+    display: none;
 }
 .imagesection{
     display: flex;
@@ -1251,10 +1260,12 @@ nav ul li{
     font-size: 12px;
 }
 nav{
-    display: none;
+     display: flex;
+    margin-right: 10px;
 }
 nav ul li{
     font-size:12px;
+    display: none;
 }
 .imagesection{
     display: flex;
@@ -1544,10 +1555,12 @@ nav ul li{
     font-size: 11px;
 }
 nav{
-    display: none;
+     display: flex;
+    margin-right: 10px;
 }
 nav ul li{
     font-size:12px;
+    display: none;
 }
 .imagesection{
     display: flex;
