@@ -26,7 +26,21 @@
 
         </header>
         <nav>
+            
             <ul>
+               
+                <li><a class="home" href="#">HOME</a></li>
+                <li><a href="#">BIOGRAPHY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">AREAS WE SERVE</a></li>
+                <li><a href="#">LIBRARY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                
+            </ul>
+            <div onclick=showssidebar()  class="toggle"><a href="#"><img  src="responsive_menu_icon.png"></a>
+            </div>
+            <ul class="sidebar">
+                 <li onclick=hidesidebar()><a href="#"><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"></a></li>
                 <li><a class="home" href="#">HOME</a></li>
                 <li><a href="#">BIOGRAPHY</a></li>
                 <li><a href="#">BLOG</a></li>
@@ -34,9 +48,8 @@
                 <li><a href="#">LIBRARY</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
-            <div class="toggle">
-                <img src="responsive_menu_icon.png">
-            </div>
+            
+
         </nav>
         <!--Image Section-->
         <section class="imagesection">
@@ -257,32 +270,37 @@
 <!--Third Right Container-->
 
 <div class="rightcontainer">
+    <div class="mainclient">
 <!--First div-->
+<div class="clientdiv1">
 <div class="clientdiv">
 <h1>CLIENT <span>TESTIMONIALS</span></h1>
 <p>Read what others say<br>about Keefer Law Firm</p>
  <hr>
                     <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
 </div>
-
+</div>
 
 <!--Second div-->
-
+<div class="clientdiv2">
 <div class="clientdiv">
 <h1>DOWNLOAD <span>FREE</span>REPORTS</h1>
 <p>Discover the truth about<br>Virginia Law.</p>
  <hr>
                     <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
 </div>
-
+</div>
 <!--Third div-->
-
+<div class="clientdiv3">
 <div class="clientdiv">
 <h1>CONTACT <span>OUR</span>OFFICES</h1>
 <p>Get your questions<br>answered right now.</p>
  <hr>
                     <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
 </div>
+</div>
+</div>
+
 
 <!--Certificate Images-->
 <div class="lastimg">
@@ -317,6 +335,21 @@
 
         </div>
     </section>
+
+<script>
+    function showssidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+
+
+
 </body>
 
 </html>

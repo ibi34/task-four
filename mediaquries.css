@@ -1,3 +1,14 @@
+@media (min-width:578px){
+    .toggle img{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+
+
+}
+
 @media (max-width: 1237px) {
     .toggle{
         display: none;
@@ -460,23 +471,28 @@ nav ul li{
         font-size: 20px;
     }
 .secondsection{
+    
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+    width: 100%;
+flex-wrap: wrap;
+    
+    gap: 10px;
+    justify-content: center;
 }
 .charged{
-    width: 95%;
+    width: 50%;
+  
+    margin: 0;
 }
 
     .charone h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .charone h2{
-        font-size: 25px;
+        font-size: 15px;
     }
     .chartwo p{
-        font-size: 20px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
     .clickbtn1 hr{
@@ -484,89 +500,90 @@ nav ul li{
     }
     .clickbtn1 button{
         margin-left: 150px;
-        font-size: 20px;
+        font-size: 12px;
     }
     .clickbtn1 button img{
-        height: 15px;
+        height: 10px;
     }
 .law{
-    width: 95%;
-    border-top: 2px solid rgb(112, 110, 110);
-    border-bottom: 2px solid rgb(112, 110, 110);
-    border-left: none;
-    border-right: none;
+    width: 45%;
+   border-left: 2px solid rgb(112, 110, 110);
+    
 }
 .lawone{
     padding-bottom: 20px;
 }
 
     .lawone h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .lawone p{
-        font-size: 20px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
     .result h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .result p{
-        font-size: 20px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
     .lawone button{
-        font-size: 15px;
+        font-size: 12px;
       
-        margin-left: 80px;
+        margin-left: 60px;
     }
     .lawone button img{
-        height: 12px;
+        height: 10px;
     }
     .result{
         padding-bottom: 20px;
     }
     .result button{
-        font-size: 15px;
+        font-size: 12px;
          
-         margin-left: 80px;
+         margin-left: 60px;
     }
     .result button img{
-        height: 7px;
+        height: 10px;
        
     }
     .certificates{
-        width: 95%;
+        width: 45%;
     }
   
     .certext h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .certext p{
-        font-size: 20px;
+        font-size: 12px;
     }
     
     .certext button{
         margin-left: 150px;
-        font-size: 15px;
+        font-size: 12px;
         
     }
 
 
 .lastsection{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     
-    align-items: center;
+    justify-content: center;
 }
 .leftcontainer{
-    width: 60%;
+    width: 45%;
 
 }
 
     .leftcontainer h1{
-        font-size: 30px;
+        font-size: 20px;
         height: auto;
+    }
+    .bigbtn{
+        width: 90%;
     }
    .upper{
      height: auto;
@@ -575,7 +592,7 @@ nav ul li{
    }
     
     .upper h1{
-        font-size: 25px;
+        font-size: 15px;
     }
    .lower{
     margin: 0;
@@ -584,50 +601,73 @@ nav ul li{
    }
     .lower p{
        
-       margin-top: 15px;
-        font-size: 15px;
+       margin-top: 30px;
+        font-size: 14px;
        padding-bottom: 0;
        
         
        
     }
     .lower img{
-        margin-top: 15px;
+        margin-top: 30px;
     }
     .btnshadow{
         width: 100%;
-        margin: 0;
+        margin-top: -3px;
         
     }
     .btnshadow img{
-        width: 90%;
+        width: 85%;
     }
     .learndiv{
         width: 100%;
     }
     .learndiv h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .learndiv h2{
-        font-size: 25px;
+        margin-top: 0px;
+        font-size: 15px;
     }
     .centercontainer{
-        width: 90%;
+        width: 50%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-content: center;
     }
     .centercontainer h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .centercontainer p{
         font-size: 13px;
     }
     .rightcontainer{
         width: 100%;
-        align-items: center;
+        justify-content: center;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .mainclient{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        gap: 10px;
+        justify-content: center;
+    }
+    .clientdiv1{
+        width: 45%;
+       
+    }
+    .clientdiv2{
+        width: 45%;
+        border-left: 2px solid rgb(112, 110, 110);
+    }
+    .clientdiv3{
+        width:45% ;
+        
     }
     .clientdiv{
        
@@ -635,13 +675,13 @@ nav ul li{
         
     }
     .clientdiv h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .clientdiv p{
-        font-size: 15px;
+        font-size: 12px;
     }
     .clientdiv button{
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 70px;
         
     }
@@ -683,6 +723,42 @@ nav ul li{
     
     display: none;
 }
+
+
+.sidebar{
+    position: absolute;
+    width: 40%;
+    background-color: rgba(101, 13, 13, 0.87);
+    height: 300px;
+    right: 0;
+    top: 115px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    box-shadow: 0 5px 10px black;
+    backdrop-filter: blur(20px);
+display: none;
+
+}
+.sidebar li{
+    display: flex;
+}
+.sidebar li a{
+ border-radius: 5px;
+ display: flex;
+ transition: 0.3s ease;
+}
+.sidebar li a:hover{
+    background-color: rgb(118, 120, 118);
+}
+.sidebar img{
+    background-color: white;
+    
+}
+
+
+
 .imagesection{
     display: flex;
     flex-direction: column;
@@ -763,6 +839,7 @@ nav ul li{
     border-bottom: 2px solid rgb(112, 110, 110);
     border-left: none;
     border-right: none;
+   
 }
 .lawone{
     padding-bottom: 20px;
@@ -899,6 +976,22 @@ nav ul li{
         display: flex;
         flex-direction: column;
     }
+    .mainclient{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+    }
+    .clientdiv1{
+        width: 95%;
+    }
+    .clientdiv2{
+        width: 95%;
+        border: none;
+    }
+    .clientdiv3{
+        width: 95%;
+    }
     .clientdiv{
        
         width: 90%;
@@ -955,7 +1048,9 @@ nav ul li{
     width: 95%;
    
    }
-        
+        .sidebar{
+            top: 245px;
+        }
 .rightcontact h3{
     font-size: 15px;
 }
@@ -1146,7 +1241,7 @@ nav ul li{
    }
     .lower p{
        
-       margin-top: 15px;
+       margin-top: 35px;
         font-size: 12px;
        padding-bottom: 0;
        
@@ -1154,12 +1249,12 @@ nav ul li{
        
     }
     .lower img{
-        margin-top: 15px;
+        margin-top: 35px;
     }
     .btnshadow{
-        width: 100%;
+        width: 90%;
         margin: 0;
-        margin-top: -4px;
+        margin-top: -3px;
     }
     .btnshadow img{
         width: 90%;
@@ -1246,6 +1341,10 @@ nav ul li{
     text-align: center;
     width: 95%;
    
+   }
+
+   .sidebar{
+    top: 225px;
    }
         
 .rightcontact h3{
@@ -1417,13 +1516,21 @@ nav ul li{
     align-items: center;
 }
 .leftcontainer{
-    width: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
 
 }
 
     .leftcontainer h1{
-        font-size: 20px;
+        font-size: 25px;
         height: auto;
+    }
+    .bigbtn{
+        width: 80%;
+        
     }
    .upper{
      height: auto;
@@ -1432,7 +1539,7 @@ nav ul li{
    }
     
     .upper h1{
-        font-size: 13px;
+        font-size: 20px;
     }
    .lower{
     margin: 0;
@@ -1441,21 +1548,21 @@ nav ul li{
    }
     .lower p{
        
-       margin-top: 15px;
-       margin-top: 15px;
-        font-size: 11px;
+       margin-top: 30px;
+       margin-left: 120px;
+        font-size: 15px;
        padding-bottom: 0;
        
         
        
     }
     .lower img{
-        margin-top: 12px;
+        margin-top: 30px;
     }
     .btnshadow{
-        width: 100%;
+        width: 85%;
         margin: 0;
-        margin-top: -5px;
+        margin-top: -1px;
     }
     .btnshadow img{
         width: 90%;
@@ -1543,6 +1650,13 @@ nav ul li{
     width: 95%;
    
    }
+
+
+   .sidebar{
+    top: 200px;
+    
+   }
+
         
 .rightcontact h3{
     font-size: 13px;
@@ -1737,16 +1851,24 @@ nav ul li{
     flex-direction: column;
     width: 100%;
     
-    align-items: center;
+    
 }
 .leftcontainer{
-    width: 60%;
-
+    width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
     .leftcontainer h1{
         font-size: 17px;
         height: auto;
+        
+    }
+    .bigbtn{
+    width: 80%;
+        display: flex;
         
     }
    .upper{
@@ -1756,7 +1878,7 @@ nav ul li{
    }
     
     .upper h1{
-        font-size: 11px;
+        font-size: 15px;
     }
    .lower{
     margin: 0;
@@ -1765,25 +1887,25 @@ nav ul li{
    }
     .lower p{
        
-       margin-top: 15px;
-       margin-left: 50px;
-        font-size: 11px;
+       margin-top: 30px;
+       margin-left: 100px;
+        font-size: 13px;
        padding-bottom: 0;
        
         
        
     }
     .lower img{
-        margin-top: 14px;
+        margin-top: 30px;
         height: 15px;
     }
     .btnshadow{
-        width: 100%;
+        width: 80%;
         margin: 0;
         margin-top: -7px;
     }
     .btnshadow img{
-        width: 90%;
+        width: 95%;
     }
     .learndiv{
         width: 100%;
